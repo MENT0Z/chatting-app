@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingactivity"
+    android:orientation="vertical"
+  >
+    <ImageView
+        android:layout_width="179dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photocamera"
+        android:layout_marginTop="30dp"
+        android:id="@+id/choose_photo_setting"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:id="@+id/name_setting"
+            android:textColor="@color/black"
+            android:layout_marginBottom="50dp"
+            android:textSize="30sp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:layout_gravity="center"
+            android:id="@+id/status_setting"
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:id="@+id/save_setting"
+            android:text="save"
+            android:textSize="25sp"
+            android:background="@drawable/main_border"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

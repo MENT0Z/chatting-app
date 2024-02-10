@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splashscreen">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="150dp"
+    app:cardUseCompatPadding="true"
+    android:elevation="20dp"
+    android:id="@+id/id_of_cardview">
+
+    <ImageView
+        android:id="@+id/np_hack_logo"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/np_hack_logo"
+        android:padding="10sp"/>
+</androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/app_name_id_to_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets chat"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="@font/apptext"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="558dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="  From\nMadan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.883"
+            android:id="@+id/developerid"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

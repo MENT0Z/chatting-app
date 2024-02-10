@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="234dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/shapedialogue">
+
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="55dp"
+        android:src="@drawable/logout"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Do you really \nwant to log out?"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:textColor="#FFEB3B"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      android:layout_marginTop="20dp"
+        >
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#FB1A09"
+            android:text="NO"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/black"
+            android:id="@+id/button_no"
+            />
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="#FB1A09"
+            android:text="YES"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp"
+            android:id="@+id/button_yes"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367280280774",
+    "project_id": "mychat-f44b4",
+    "storage_bucket": "mychat-f44b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367280280774:android:e583beeae551eb511573c7",
+        "android_client_info": {
+          "package_name": "com.mruraza.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367280280774-2h5qcv59pon5ldqv9jjg009f84rcn49e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFq2ZLbjido4368kgixsVck7Io29fARNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367280280774-2h5qcv59pon5ldqv9jjg009f84rcn49e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
